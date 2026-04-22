@@ -106,18 +106,18 @@ npm run dev
 
 ## Frontend Dependencies
 React Router DOM<br>
-npm install react-router-dom
+npm install react-router-dom<br>
 Axios<br>
-npm install axios
+npm install axios<br>
 Bootstrap / Tailwind CSS<br>
-npm install bootstrap
+npm install bootstrap<br>
 ## Backend Dependencies
 Express.js<br>
-npm install express
+npm install express<br>
 Mongoose<br>
-npm install mongoose
+npm install mongoose<br>
 Dotenv<br>
-npm install dotenv
+npm install dotenv<br>
 ## Authentication & Security
 bcryptjs<br>
 npm install bcryptjs
