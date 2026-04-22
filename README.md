@@ -1,19 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 <div align="center">
 
@@ -106,48 +90,39 @@ npm install
 ### Server-side Application
 
 ```bash
-cd server
-npm install
+cd freelance-mini
+cd backend
 npm run dev
 ```
 
 ### Client-side Application
 
 ```bash
-cd client
-npm install
-npm start
+cd freelance-mini
+npm run dev
 ```
 
 ---
 
-## Dependencies
-
-* Font Awesome Icons
-
-```bash
-npm i --save @fortawesome/fontawesome-svg-core
-```
-
-* React Router DOM
-
-```bash
-npm i react-router-dom
-```
-
-* Axios
-
-```bash
+## Frontend Dependencies
+React Router DOM
+npm install react-router-dom
+Axios
 npm install axios
-```
-
-* React Icons
-
-```bash
-npm install react-icons --save
-```
-
----
+Bootstrap / Tailwind CSS
+npm install bootstrap
+## Backend Dependencies
+Express.js
+npm install express
+Mongoose
+npm install mongoose
+Dotenv
+npm install dotenv
+## Authentication & Security
+bcryptjs
+npm install bcryptjs
+jsonwebtoken (JWT)
+npm install jsonwebtoken
 
 ## Documentation
 
