@@ -105,23 +105,23 @@ npm run dev
 ---
 
 ## Frontend Dependencies
-React Router DOM
+React Router DOM<br>
 npm install react-router-dom
-Axios
+Axios<br>
 npm install axios
-Bootstrap / Tailwind CSS
+Bootstrap / Tailwind CSS<br>
 npm install bootstrap
 ## Backend Dependencies
 Express.js<br>
 npm install express
-Mongoose
+Mongoose<br>
 npm install mongoose
-Dotenv
+Dotenv<br>
 npm install dotenv
 ## Authentication & Security
-bcryptjs
+bcryptjs<br>
 npm install bcryptjs
-jsonwebtoken (JWT)
+jsonwebtoken (JWT)<br>
 npm install jsonwebtoken
 
 ## Documentation
